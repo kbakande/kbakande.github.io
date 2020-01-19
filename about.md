@@ -4,27 +4,11 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! Welcome to my page. Feel free to explore the site and dont forget to leave comments and likes!
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+My name is Kabeer, a machine learning engineer with years of industrial and academic experience. I have background in mathematical and statistical modelling as well as algorithm development. As a Data Science Fellow of the [S2DS programme](http://www.s2ds.org/), I have commercial experience in adding values to businesses using companies' data. I am currently working in conversational AI at the Big Data Enterprise and Artificial Intelligence Laboratory [Big-DEAL](https://www1.uwe.ac.uk/bl/research/big-deal.aspx).
 
-There are currently two themes built on Poole:
+I am highly innovative in my approach and very effective in communicating my ideas, with a [US patent](https://patents.google.com/patent/US20190081830A1/en) and over 40 peer-reviewed [publications](https://scholar.google.co.uk/citations?user=PiWvuqYAAAAJ&hl=en).
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+ I am an ardent developer of technologies and well-known footballer (at least among my cohorts :)). Check out my various data science projects on my GitHub Page [@koakande.github](https://github.com/kbakande). You can shoot me an email at koakande@gmail.com, follow me on twitter [@koakande.twitter](https://twitter.com/koakande) and connect with me on Linkedln [@koakande.linkedln](https://www.linkedin.com/in/koakande/).
