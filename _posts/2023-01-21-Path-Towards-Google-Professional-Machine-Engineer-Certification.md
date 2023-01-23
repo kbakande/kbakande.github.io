@@ -2,7 +2,8 @@
 layout: post
 title: Towards the Google PMLE Certification
 ---
-![Google-Ml-Engineer]({{ "assets/images/Google-Professional-Level-Background.png" | absolute_url }}){: .center-image }
+<!-- ![Google-Ml-Engineer]({{ "assets/images/Google-Professional-Level-Background.png" | absolute_url }}){: .center-image } -->
+![Google-Ml-Engineer](/assets/images/Google-Professional-Level-Background.png}
 # Prelude
 The Google professional machine learning engineer (PMLE) certification is a suitable target for those who needs to stay motivated while learning the various machine learning services offered on Google cloud platform (GCP). It is also one of a number of ways to demonstrate GCP expertise to potential employers. While the jury is out on real worth of tech certifications in general,  at the very least, it should lead to potentially more interviews for those actively seeking employment. 
 
