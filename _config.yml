@@ -9,7 +9,7 @@ highlighter:         true
 permalink:        pretty
 
 # Setup
-title:            koakande
+title:            koakande01
 tagline:          'Data Science, Machine Learning, Jekyll'
 url:              http://www.koakande.com
 shorturl:         koakande.com
@@ -30,6 +30,7 @@ github:
 pages_list:
   About: '/about/'
   Archive: '/archive/'
+  Blog: '/blog/'
 
 # Allow URL Redirects:
 #  * https://help.github.com/articles/redirects-on-github-pages
