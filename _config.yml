@@ -38,3 +38,4 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
