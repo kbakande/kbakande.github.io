@@ -58,9 +58,10 @@ However, to tell flask to parse the data as JSON nevertheless, we use [flask.req
         --data "{"recipes" :{"101":"Abe"}}" http://localhost:5000/rec
 
 Finally, we can still remove the final header by jsonifying the returned value.
-
+        ```bash     
         curl -X POST
-        --data "{"recipes" :{"101":"Abe"}}" http://localhost:5000/rec
+        --data "{"recipes" :{"101":"Abe"}}" http://localhost:5000/rec       
+        ```
+
 
 [JSON](https://stackoverflow.com/questions/10434599/get-the-data-received-in-a-flask-request)
-[pasre ]
