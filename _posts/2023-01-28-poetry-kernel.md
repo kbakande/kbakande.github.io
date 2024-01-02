@@ -5,31 +5,31 @@ title: Jupyter Notebook  Poetry-managed virtual environment libraries
 
 1. CD into an exiting poetry managed project and add jupyter as dev dependency.
 
-```bash
-cd my_existing_project
-poetry add jupyter --group dev
-```
+    ```bash
+    cd my_existing_project
+    poetry add jupyter --group dev
+    ```
 
 2. Create/start a Poetry virtual environment
 
-```bash
-    poetry shell
-```
+    ```bash
+        poetry shell
+    ```
 3. Install `ipykernel` if it's not already installed
 
-```bash
-    poetry add ipykernel --group dev
-```
+    ```bash
+        poetry add ipykernel --group dev
+    ```
 4. Create a new kernel linked to the virtual environment
 
-```bash
-python -m ipykernel install --user --name=my_project_kernel
-```
+    ```bash
+    python -m ipykernel install --user --name=my_project_kernel
+    ```
 5. Launch Jupyter Notebook
 
-  ```bash
-    jupyter notebook
-  ```
+    ```bash
+        jupyter notebook
+    ```
 
 6. Select the Correct Kernel in Jupyter
 
