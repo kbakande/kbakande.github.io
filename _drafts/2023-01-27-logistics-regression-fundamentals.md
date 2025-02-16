@@ -1,7 +1,6 @@
 ---
 layout: post
-title: logistics regression fundamentals.
+title: Migrating Legacy Dataform to Google cloud
 ---
 
-Logistic regression
-$ x = y $
+Dataform is a serveless platform for building and deploying tables to Google Bigquery. It offers a development environment for SQL workflow developmnent and execution as well as continous integration and deployment with popular CI/CD tools.
