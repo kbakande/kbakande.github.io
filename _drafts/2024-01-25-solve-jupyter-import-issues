@@ -1,0 +1,10 @@
+---
+layout: post
+title: logistics regression fundamentals.
+---
+It is possible to install with magic command within notebook to ensure the package is available for that environemnt. Example is 
+```bash
+%pip install 
+```
+
+[Potential solution](https://stackoverflow.com/questions/38368318/installing-a-pip-package-from-within-a-jupyter-notebook-not-working)
