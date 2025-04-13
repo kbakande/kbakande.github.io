@@ -36,7 +36,7 @@ This post showcases some of the awards, certifications, and leadership experienc
 
 - **Best Poster Award** – International Conference for Students on Applied Engineering (ICSAE), Newcastle, UK  
   *(October 20–21, 2016)*  
-  <a href="https://kbakande.github.io/assets/docs/icsae_best_poster_award.pdf" target="_blank">View Certificate</a>
+  <a href="https://kbakande.github.io/assets/docs/icsae_2018_best_poster_award.pdf" target="_blank">View Certificate</a>
 
 - **60+ Peer-Reviewed Publications** in machine learning, systems engineering, and data science  
   <a href="https://scholar.google.co.uk/citations?user=PiWvuqYAAAAJ&hl=en" target="_blank">View Google Scholar Profile</a>
@@ -76,16 +76,18 @@ This post showcases some of the awards, certifications, and leadership experienc
 
 **2013**
 - Cisco Certified Network Professional (CCNP)  
-  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/403634801681BRWH" target="_blank">View Certificate</a>
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/403634801681BRWH" target="_blank">View Certificate</a>  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/403634801681BRWH" target="_blank">Verify on Cisco</a>
 
 **2010**
-- Cisco Certified Network Associate Security (CCNA Security)
- 
-  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/404264168290HRZF" target="_blank">View Certificate</a>
+- Cisco Certified Network Associate Security (CCNA Security)  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/404264168290HRZF" target="_blank">View Certificate</a>  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/404264168290HRZF" target="_blank">Verify on Cisco</a>
 
 **2009**
 - Cisco Certified Network Associate (CCNA)  
-  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/402691304182ELCN" target="_blank">View Certificate</a>
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/402691304182ELCN" target="_blank">View Certificate</a>  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/402691304182ELCN" target="_blank">Verify on Cisco</a>
 
 ---
 
