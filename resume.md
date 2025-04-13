@@ -5,11 +5,11 @@ title: Resume
 
 ## 📄 Resume Overview
 
-I maintain multiple versions of my resume to suit different audiences and purposes:
 
-- **One-Page Resume** – A **summarised version of my career**, highlighting key roles and achievements for quick review in industry or fast-paced hiring processes.
 
-- **Two-Page Resume** – An **expanded version of my career**, offering deeper context on my technical contributions, leadership, and project outcomes — well-suited for more detailed industry or technical roles.
+- **One-Page Resume** – A **summarised version of my career**, highlighting key roles and achievements.
+
+- **Expanded Resume** – An **expanded version of my career**, offering deeper context on my technical contributions, leadership, and project outcomes.
 
 - **Extended Academic CV** – A version **tailored towards the academic community**, designed to showcase my research background, publications, teaching, and scholarly contributions.
 
