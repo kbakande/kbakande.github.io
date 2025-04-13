@@ -19,7 +19,7 @@ This post showcases some of the awards, certifications, and leadership experienc
   [View Patents](https://uspto.report/company/Akande-Kabiru)
 
 - **Royal Academy of Engineering “UK Promising Talent” Award**  
-  <iframe src="https://kbakande.github.io/assets/docs/rae_promising_talent_award.pdf" height="550" width="100%"></iframe>
+  <iframe src="https://kbakande.github.io/assets/images/rae_global_talent.png" height="550" width="100%"></iframe>
 
 - **Most Innovative Prize – 2019 Science to Data Science Bootcamp**  
   [LinkedIn Recommendations](https://www.linkedin.com/in/koakande/details/recommendations)
@@ -31,7 +31,7 @@ This post showcases some of the awards, certifications, and leadership experienc
 - **60+ Peer-Reviewed Publications** in machine learning, systems engineering, and data science  
   [Google Scholar Profile](https://scholar.google.co.uk/citations?user=PiWvuqYAAAAJ&hl=en)
 
-- [**2018 IEEE COMSOC Student Grant Winner**](https://icc2018.ieee-icc.org/authors/student-travel-grants.html#comsoc) for reaearch presentaion in Kansas City, USA. 
+- [**2018 IEEE COMSOC Student Grant Winner**](https://icc2018.ieee-icc.org/authors/student-travel-grants.html#comsoc) for my research presentation in Kansas City, USA. 
 
 ---
 
