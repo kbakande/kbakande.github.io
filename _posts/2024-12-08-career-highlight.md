@@ -18,9 +18,11 @@ This post showcases some of the awards, certifications, and leadership experienc
 - **Granted 3 US Patents**  
   <a href="https://uspto.report/company/Akande-Kabiru" target="_blank">View on USPTO</a>  
   <ul>
-    <li><a href="https://kbakande.github.io/assets/docs/us_patent_1.pdf" target="_blank">US Patent #1 – View PDF</a></li>
-    <li><a href="https://kbakande.github.io/assets/docs/us_patent_2.pdf" target="_blank">US Patent #2 – View PDF</a></li>
-    <li><a href="https://kbakande.github.io/assets/docs/us_patent_3.pdf" target="_blank">US Patent #3 – View PDF</a></li>
+    <li><a href="https://kbakande.github.io/assets/docs/us_patent_20170155498.pdf" target="_blank">US Patent #1 – View PDF</a></li>
+ 
+    <li><a href="https://kbakande.github.io/assets/docs/us_patent_20190081830.pdf" target="_blank">US Patent #2 – View PDF</a></li>
+ 
+    <li><a href="https://kbakande.github.io/assets/docs/us_patent_20190140874.pdf" target="_blank">US Patent #3 – View PDF</a></li>
   </ul>
 
 - **Royal Academy of Engineering “UK Promising Talent” Award**  
@@ -41,6 +43,49 @@ This post showcases some of the awards, certifications, and leadership experienc
 
 - **2018 IEEE COMSOC Student Grant Winner**  
   <a href="https://icc2018.ieee-icc.org/authors/student-travel-grants.html#comsoc" target="_blank">View on IEEE ICC 2018</a>
+
+## 📜 Certifications & Courses
+**2025**
+- Cloud Digital Leader Certification – <a href="https://www.credly.com/badges/4359a495-3c72-4121-bb88-5041d5f53283/" target="_blank">View Certificate</a>
+
+**2023**
+- Google Cloud Certified: Professional Machine Learning Engineer – <a href="https://www.credly.com/badges/02a866b2-ba87-4a6a-9c55-0745abde8f44" target="_blank">View Certificate</a>
+- HashiCorp Certified: Terraform Associate (003) – <a href="https://www.credly.com/badges/eacd21df-2f7a-4690-bc69-7d90b5301343" target="_blank">View Certificate</a>
+
+**2021**
+- Full Stack Web Developer Nanodegree – <a href="https://graduation.udacity.com/confirm/ND0044" target="_blank">View Certificate</a>  
+- Front End Web Developer Nanodegree – <a href="https://www.udacity.com/certificate/NG5CDYPW" target="_blank">View Certificate</a>  
+- Science to Data Science London Bootcamp (S2DS) – <a href="https://www.credential.net/e1df7fda-beae-4534-a994-1737c7ad2b54#acc.GN3Uw5eo" target="_blank">View Program</a>  
+- SQL Intermediate (HackerRank) – <a href="https://www.hackerrank.com/certificates/e3d022f12a3b" target="_blank">View Certificate</a>  
+
+**2019**
+- Python for Everybody Specialization (Coursera) – <a href="https://www.coursera.org/account/accomplishments/specialization/PERTCE6TAR3X" target="_blank">View Specialization</a>  
+  - Programming for Everybody (Getting Started with Python)  
+  - Python Data Structures  
+  - Using Databases with Python  
+  - Using Python to Access Web Data  
+  - Capstone: Retrieving, Processing, and Visualizing Data with Python  
+
+- Sequence Models – <a href="https://www.coursera.org/account/accomplishments/verify/GZW3YYQYLLUC" target="_blank">View Course</a>  
+- Applied Machine Learning in Python – <a href="https://www.coursera.org/account/accomplishments/verify/ND5RJJZ47YAW" target="_blank">View Course</a>  
+- Neural Networks and Deep Learning – <a href="https://www.coursera.org/account/accomplishments/verify/6RLL35GJFQ7K" target="_blank">View Course</a>
+
+**2017**
+- Digital Systems: From Logic Gates to Processors – <a href="https://www.coursera.org/account/accomplishments/certificate/NGH9YSKY83P3" target="_blank">View Course</a>  
+- Programming Foundations with JavaScript, HTML and CSS *(with Honors)* – <a href="https://www.coursera.org/account/accomplishments/verify/ZN273GXNKUT5" target="_blank">View Course</a>
+
+**2013**
+- Cisco Certified Network Professional (CCNP)  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/403634801681BRWH" target="_blank">View Certificate</a>
+
+**2010**
+- Cisco Certified Network Associate Security (CCNA Security)
+ 
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/404264168290HRZF" target="_blank">View Certificate</a>
+
+**2009**
+- Cisco Certified Network Associate (CCNA)  
+  <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/402691304182ELCN" target="_blank">View Certificate</a>
 
 ---
 
