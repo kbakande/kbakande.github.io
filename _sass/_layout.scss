@@ -1,9 +1,7 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
+// Layout styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 46rem; /* Increased from 38rem to give more room */
+  max-width: 46rem; /* WIDER CONTAINER to fix cramped display */
   padding-left:  1.5rem;
   padding-right: 1.5rem;
   margin-left:  auto;
@@ -16,13 +14,13 @@ footer {
 
 /* --- Portfolio Custom Styles --- */
 
-/* Hero Section: Added padding to keep text away from edges */
+/* Hero Section */
 .hero-section {
   text-align: center;
-  padding: 3rem 2rem; /* Added horizontal padding */
+  padding: 3rem 2rem; /* PADDING ADDED to keep text off borders */
   background: linear-gradient(to bottom, #fff, #f9f9f9);
-  margin-bottom: 2.5rem;
-  border-radius: 8px; /* Softer edges */
+  margin-bottom: 3rem;
+  border-radius: 8px;
   border: 1px solid #f0f0f0;
 }
 
@@ -41,14 +39,36 @@ footer {
 }
 
 .hero-content {
-  max-width: 38rem; /* Restrict text width for readability */
+  max-width: 38rem;
   margin: 0 auto;
   font-size: 1.1rem;
   line-height: 1.7;
 }
 
-.hero-links {
+.hero-actions {
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Social Icons Styling */
+.social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Space between icons */
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #515151;
+  font-size: 1.6rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #268bd2; /* Brand blue on hover */
+  transform: translateY(-2px);
 }
 
 /* Section Styling */
@@ -81,9 +101,9 @@ footer {
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 8px;
-  padding: 1.5rem 2rem; /* Increased padding inside cards */
+  padding: 1.5rem 2rem; /* PADDING ADDED inside cards */
   box-shadow: 0 2px 5px rgba(0,0,0,0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .card:hover {
@@ -103,20 +123,20 @@ footer {
 /* Certifications Grid */
 .cert-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Slightly wider cards */
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
 }
 
 .cert-item {
-  display: block; /* Makes the whole card clickable */
+  display: block;
   border: 1px solid #eee;
   padding: 1.5rem 1rem;
   border-radius: 6px;
   text-align: center;
   background-color: #fafafa;
   color: inherit;
+  text-decoration: none !important;
   transition: background-color 0.2s;
-  text-decoration: none !important; /* Removes underline from link */
 }
 
 .cert-item:hover {
@@ -171,7 +191,7 @@ footer {
   text-decoration: none;
 }
 
-/* Lists */
+/* Lists and Text */
 .clean-list {
   list-style: none;
   padding-left: 0;
@@ -181,25 +201,21 @@ footer {
 .clean-list li {
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.clean-list li:last-child {
+  border-bottom: none;
 }
 
 .sub-text {
   font-size: 0.9rem;
   color: #767676;
   display: block;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 /* Posts Preview */
-.posts-list {
-  margin-bottom: 1.5rem;
-}
-.post-preview {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-}
-.post-preview-title {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
-}
+.posts-list { margin-bottom: 1.5rem; }
+.post-preview { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
+.post-preview-title { margin: 0 0 0.5rem 0; font-size: 1.3rem; }
