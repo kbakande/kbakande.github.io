@@ -28,20 +28,38 @@ title: Home
   <div class="grid-2">
     <div class="card">
       <h3>Granted US Patents</h3>
-      <p>Innovative signal processing techniques minimizing modelling errors.</p>
+      <p style="font-size: 0.95rem; color: #666;">Innovative signal processing techniques minimizing modelling errors.</p>
       <ul class="clean-list">
-        <li><a href="{{ site.baseurl }}/assets/docs/us_patent_20170155498.pdf">US Patent #9,667,458</a></li>
-        <li><a href="{{ site.baseurl }}/assets/docs/us_patent_20190081830.pdf">US Patent #10,230,560</a></li>
-        <li><a href="{{ site.baseurl }}/assets/docs/us_patent_20190140874.pdf">US Patent #10,212,007</a></li>
+        <li>
+          <a href="{{ site.baseurl }}/assets/docs/us_patent_20170155498.pdf">US Patent #9,667,458</a>
+          <span class="sub-text">Blind Equalization Methodologies</span>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/assets/docs/us_patent_20190081830.pdf">US Patent #10,230,560</a>
+          <span class="sub-text">Single Carrier Frequency Division</span>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/assets/docs/us_patent_20190140874.pdf">US Patent #10,212,007</a>
+          <span class="sub-text">Equalization Communication Systems</span>
+        </li>
       </ul>
     </div>
 
     <div class="card">
       <h3>Awards & Honors</h3>
       <ul class="clean-list">
-        <li><strong>UK Promising Talent</strong> <br><span class="sub-text">Royal Academy of Engineering</span></li>
-        <li><strong>Most Innovative Prize</strong> <br><span class="sub-text">S2DS Data Science Bootcamp</span></li>
-        <li><strong>Best Poster Award</strong> <br><span class="sub-text">ICSAE Newcastle, UK</span></li>
+        <li>
+          <strong>UK Promising Talent</strong>
+          <span class="sub-text">Royal Academy of Engineering</span>
+        </li>
+        <li>
+          <strong>Most Innovative Prize</strong>
+          <span class="sub-text">S2DS Data Science Bootcamp</span>
+        </li>
+        <li>
+          <strong>Best Poster Award</strong>
+          <span class="sub-text">ICSAE Newcastle, UK</span>
+        </li>
       </ul>
     </div>
   </div>
@@ -50,26 +68,31 @@ title: Home
 <div class="section-container">
   <h2 class="section-title">📜 Certifications</h2>
   <div class="cert-grid">
-    <div class="cert-item">
+    
+    <a href="https://www.credly.com/badges/02a866b2-ba87-4a6a-9c55-0745abde8f44" target="_blank" class="cert-item">
       <span class="cert-icon">☁️</span>
       <strong>Google Professional ML Engineer</strong>
       <span class="cert-year">2023</span>
-    </div>
-    <div class="cert-item">
+    </a>
+
+    <a href="https://www.credly.com/badges/eacd21df-2f7a-4690-bc69-7d90b5301343" target="_blank" class="cert-item">
       <span class="cert-icon">🏗️</span>
       <strong>Terraform Associate (003)</strong>
       <span class="cert-year">2023</span>
-    </div>
-    <div class="cert-item">
+    </a>
+
+    <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/403634801681BRWH" target="_blank" class="cert-item">
       <span class="cert-icon">🌐</span>
       <strong>Cisco CCNP & CCNA</strong>
       <span class="cert-year">2013</span>
-    </div>
-    <div class="cert-item">
+    </a>
+
+    <a href="https://graduation.udacity.com/confirm/ND0044" target="_blank" class="cert-item">
       <span class="cert-icon">🎓</span>
       <strong>Udacity Full Stack Nanodegree</strong>
       <span class="cert-year">2021</span>
-    </div>
+    </a>
+
   </div>
 </div>
 
@@ -84,10 +107,13 @@ title: Home
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h3>
       <span class="post-date">{{ post.date | date_to_string }}</span>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
-  <div class="center-text">
-    <a href="{{ site.baseurl }}/archive/" class="read-more-link">View all posts &rarr;</a>
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="{{ site.baseurl }}/archive/" class="btn btn-outline">View All Posts &rarr;</a>
   </div>
 </div>
