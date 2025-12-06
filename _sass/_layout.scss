@@ -1,78 +1,57 @@
-/* --- Portfolio Landing Page Styles --- */
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
 
-/* Hero Section */
+.container {
+  max-width: 46rem; /* Increased from 38rem to give more room */
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-bottom: 2rem;
+}
+
+/* --- Portfolio Custom Styles --- */
+
+/* Hero Section: Added padding to keep text away from edges */
 .hero-section {
   text-align: center;
-  padding: 3rem 0;
+  padding: 3rem 2rem; /* Added horizontal padding */
   background: linear-gradient(to bottom, #fff, #f9f9f9);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  border-radius: 8px; /* Softer edges */
+  border: 1px solid #f0f0f0;
 }
 
 .hero-title {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: #313131;
+  line-height: 1.2;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: #767676;
   font-weight: 300;
   margin-bottom: 1.5rem;
 }
 
 .hero-content {
-  max-width: 32rem;
+  max-width: 38rem; /* Restrict text width for readability */
   margin: 0 auto;
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .hero-links {
   margin-top: 2rem;
 }
 
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 0.5rem;
-  transition: all 0.2s ease;
-}
-
-.btn-primary {
-  background-color: #268bd2;
-  color: white;
-  border: 1px solid #268bd2;
-}
-
-.btn-primary:hover {
-  background-color: #1f78b4;
-  text-decoration: none;
-  color: white;
-}
-
-.btn-outline {
-  background-color: transparent;
-  color: #268bd2;
-  border: 1px solid #268bd2;
-}
-
-.btn-outline:hover {
-  background-color: #f0f8ff;
-  text-decoration: none;
-}
-
-/* Layout Utilities */
-.section-divider {
-  margin: 3rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-}
-
+/* Section Styling */
 .section-container {
   margin-bottom: 4rem;
 }
@@ -81,12 +60,11 @@
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.75rem;
-  position: relative;
-  display: inline-block;
-  width: 100%;
+  color: #313131;
+  font-weight: 700;
 }
 
-/* Cards & Grid */
+/* Cards (Patents/Awards) */
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -103,22 +81,97 @@
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
+  padding: 1.5rem 2rem; /* Increased padding inside cards */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .card h3 {
   margin-top: 0;
   font-size: 1.2rem;
   color: #313131;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
+/* Certifications Grid */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Slightly wider cards */
+  gap: 1rem;
+}
+
+.cert-item {
+  display: block; /* Makes the whole card clickable */
+  border: 1px solid #eee;
+  padding: 1.5rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #fafafa;
+  color: inherit;
+  transition: background-color 0.2s;
+  text-decoration: none !important; /* Removes underline from link */
+}
+
+.cert-item:hover {
+  background-color: #f0f8ff;
+  border-color: #268bd2;
+}
+
+.cert-icon {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.cert-year {
+  display: block;
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #268bd2;
+  color: white;
+  border: 1px solid #268bd2;
+}
+
+.btn-primary:hover {
+  background-color: #1f78b4;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #268bd2;
+  border: 1px solid #268bd2;
+}
+
+.btn-outline:hover {
+  background-color: #f0f8ff;
+  text-decoration: none;
+}
+
+/* Lists */
 .clean-list {
   list-style: none;
   padding-left: 0;
@@ -127,66 +180,26 @@
 
 .clean-list li {
   margin-bottom: 0.75rem;
-  border-bottom: 1px solid #f5f5f5;
   padding-bottom: 0.5rem;
 }
 
-.clean-list li:last-child {
-  border-bottom: none;
-}
-
 .sub-text {
-  font-size: 0.85rem;
-  color: #999;
-}
-
-/* Certifications Grid */
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-}
-
-.cert-item {
-  border: 1px solid #eee;
-  padding: 1rem;
-  border-radius: 6px;
-  text-align: center;
-  background-color: #fafafa;
-}
-
-.cert-icon {
+  font-size: 0.9rem;
+  color: #767676;
   display: block;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.1rem;
 }
 
-.cert-year {
-  display: block;
-  font-size: 0.8rem;
-  color: #aaa;
-  margin-top: 0.5rem;
-}
-
-/* Recent Posts Preview */
+/* Posts Preview */
 .posts-list {
   margin-bottom: 1.5rem;
 }
-
 .post-preview {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
-
 .post-preview-title {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
-.center-text {
-  text-align: center;
-}
-
-.read-more-link {
-  font-weight: bold;
-  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
 }
