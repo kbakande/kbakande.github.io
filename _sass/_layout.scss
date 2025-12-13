@@ -219,3 +219,51 @@ footer {
 .posts-list { margin-bottom: 1.5rem; }
 .post-preview { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
 .post-preview-title { margin: 0 0 0.5rem 0; font-size: 1.3rem; }
+
+/* Talks List Styling (for chronological or professional lists) */
+.talks-list {
+  list-style: none;
+  padding-left: 0;
+  border-left: 3px solid #eee; /* Creates a subtle vertical line timeline effect */
+  margin-left: 1rem;
+}
+
+.talks-list li {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+/* Timeline Dot */
+.talks-list li:before {
+  content: '';
+  position: absolute;
+  left: -9px; /* Position the dot on the left line */
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 3px solid #268bd2; /* Dot color (your primary blue) */
+  border-radius: 50%;
+}
+
+.talk-year {
+  display: block;
+  font-weight: bold;
+  color: #268bd2; /* Year in primary blue */
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.talk-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.talk-description {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: #767676;
+}
