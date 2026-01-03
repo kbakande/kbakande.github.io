@@ -23,6 +23,24 @@ However, macOS users often encounter an important question early on: **why do we
 
 This post explains the underlying technical reasons, defines the key concepts involved, and shows how Colima enables containers to run seamlessly on macOS.
 
+# Architecture Overview
+
+The following diagram illustrates how Docker, Colima, and macOS work together to run containers:
+
+```mermaid
+flowchart TD
+    A[macOS<br/>Docker CLI & Compose] -->|Sends commands| B[Colima]
+    B --> C[Linux VM]
+    C --> D[Docker Daemon]
+    D --> E[Containers]
+    style A fill:#f0f8ff,stroke:#1f77b4,stroke-width:2px
+    style B fill:#e6f2ff,stroke:#1f77b4,stroke-width:2px
+    style C fill:#d9eaff,stroke:#1f77b4,stroke-width:2px
+    style D fill:#cce0ff,stroke:#1f77b4,stroke-width:2px
+    style E fill:#b3d1ff,stroke:#1f77b4,stroke-width:2px
+
+From the diagram, you can see the flow: commands from the Docker CLI and Compose on macOS go to Colima, which hosts a Linux VM running the Docker daemon. The daemon then creates and manages containers.
+
 # Containers and the Linux Kernel
 
 To understand the problem, we must first understand **what containers are**.
