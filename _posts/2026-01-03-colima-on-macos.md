@@ -130,6 +130,22 @@ Colima is often preferred because it is:
 - Open-source
 - Focused purely on container runtime needs
 
+# Funfacts
+When installing docker compose, the command
+
+```bash
+brew install docker-compose
+```
+is issued. However, since it is a plugin for Docker, it works as a subcommand for Docker. So it is 
+used as docker subcommand `compose`.
+
+```bash
+docker compose version
+```
+
+
+
+
 # Summary
 
 - Containers require Linux kernel features
