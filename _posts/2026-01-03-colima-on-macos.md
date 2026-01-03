@@ -3,7 +3,13 @@ layout: post
 title: Why Colima Is Needed to Run Docker Containers on macOS
 ---
 
-![Docker-Colima](/assets/images/docker-colima-macos.png)
+```mermaid
+flowchart TD
+    A[macOS<br/>Docker CLI & Compose] --> B[Colima]
+    B --> C[Linux VM]
+    C --> D[Docker Daemon]
+    D --> E[Containers]
+```
 
 # Prelude
 
