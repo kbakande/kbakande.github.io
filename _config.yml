@@ -29,8 +29,20 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:
   About: '/about/'
+  Projects: '/projects/'
+  Timeline: '/timeline/'
   Archive: '/archive/'
   Resume: '/resume/'
+
+# Comments config
+# Replace `your-disqus-shortname` with your actual Disqus shortname when you sign up.
+disqus_shortname: 'your-disqus-shortname'
+
+# Portfolio collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # Allow URL Redirects:
 #  * https://help.github.com/articles/redirects-on-github-pages

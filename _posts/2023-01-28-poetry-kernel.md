@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jupyter Notebook  Poetry-managed virtual environment libraries
+comments: true
 ---
 
 1. CD into an exiting poetry managed project and add jupyter as dev dependency.

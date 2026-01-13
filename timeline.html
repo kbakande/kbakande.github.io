@@ -1,0 +1,20 @@
+---
+layout: page
+title: Timeline
+---
+
+<h2>Career Timeline</h2>
+
+<p>A chronological overview of major milestones, awards and speaking engagements.</p>
+
+<ul class="timeline-list">
+{% for item in site.data.timeline %}
+  <li>
+    <strong>{{ item.year }}</strong> – <em>{{ item.title }}</em><br>
+    {{ item.description }}
+    {% if item.link %}
+      <br><a href="{{ item.link }}" target="_blank">Learn more</a>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

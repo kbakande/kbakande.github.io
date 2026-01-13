@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Towards the Google PMLE Certification
+comments: true
 ---
 <!-- ![Google-Ml-Engineer]({{ "assets/images/Google-Professional-Level-Background.png" | absolute_url }}){: .center-image } -->
 ![Google-Ml-Engineer](/assets/images/Google-Professional-Level-Background.png)

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Awards, Recognition & Volunteering Highlights
+comments: true
 ---
 
 This post showcases some of the awards, certifications, and leadership experiences that have shaped my journey as an engineer and ML practitioner.

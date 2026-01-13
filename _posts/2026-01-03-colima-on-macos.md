@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why Colima Is Needed to Run Docker Containers on macOS
+comments: true
 ---
 
 ![Docker-Colima](/assets/images/docker-colima-macos.png)

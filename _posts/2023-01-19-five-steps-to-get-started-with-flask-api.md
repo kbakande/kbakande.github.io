@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Flask restful API
+comments: true
 ---
 A restful API is a starndard interface through which application services can be
 accessed. After building an application that offer some services, it can be wrapped

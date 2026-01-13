@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Poetry Managed Jupyter Notebooks
+comments: true
 ---
 
 Jupyter is a tool used to run notebooks, which are interactive documents where you can write and execute code. Jupyter requires a kernel to execute code in the notebook. A kernel is a computational engine that runs the code contained in the notebook, and it has access to the Python packages that are installed in its environment.
