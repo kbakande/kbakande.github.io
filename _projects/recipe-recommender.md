@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Recipe Recommender for Mindful Chef
+title: Recipe Recommender (Digital Waiter) for Mindful Chef
 date: 2019-03-01
-description: Built a personalized recipe recommender system for Mindful Chef to deliver tailored meal suggestions to customers.
+description: Built Digital Waiter, a personalized recipe recommender system for Mindful Chef to deliver tailored meal suggestions to customers.
 link: https://www.mindfulchef.com/
 ---
 
