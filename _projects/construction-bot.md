@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conversational Bot for Construction
+title: Conversational-BIM for Construction
 date: 2020-06-01
 description: Developed an Alexa‑type conversational bot for the construction industry at the Big Data Enterprise and Artificial Intelligence Laboratory (Big‑DEAL).
 link: https://www1.uwe.ac.uk/bl/research/big-deal.aspx
