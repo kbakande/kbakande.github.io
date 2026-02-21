@@ -6,4 +6,4 @@ description: Developed a suite of propensity models for targeted marketing, debt
 link: https://www.ovoenergy.com/
 ---
 
-At OVO Energy, I led the development of customer propensity models that predict customer actions such as product uptake and churn.  These models inform personalized marketing campaigns, improving conversion rates and optimizing resource allocation.
+At OVO Energy, I led the development of customer propensity models that predict customer actions such as product uptake and churn.  These models inform personalised marketing campaigns, improving conversion rates and optimising resource allocation.
